@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>DevOps Demo App</title>
+    <title>DevOps Demo App <New Version></title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -61,7 +61,7 @@
 <body>
 
 <div class="container">
-    <h1>🚀 DevOps CI/CD Demo</h1>
+    <h1>🚀 DevOps CI/CD Demo new Version</h1>
     <p>Deployed using Jenkins + Maven + Tomcat</p>
 
     <div class="card">
