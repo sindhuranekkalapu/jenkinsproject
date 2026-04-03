@@ -61,7 +61,7 @@
 <body>
 
 <div class="container">
-    <h1>🚀 DevOps CI/CD Demo new Version</h1>
+    <h1>🚀 DevOps CI/CD Demo New Version v1 </h1>
     <p>Deployed using Jenkins + Maven + Tomcat</p>
 
     <div class="card">
