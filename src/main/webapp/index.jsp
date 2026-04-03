@@ -53,7 +53,7 @@
 
         footer {
             margin-top: 50px;
-            color: white;
+            color: black;
             font-size: 14px;
         }
     </style>
