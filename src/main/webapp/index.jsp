@@ -1,83 +1,89 @@
+<%@ page contentType="text/html;charset=UTF-8" %>
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>DevOps Demo App <New Version></title>
+    <title>Sindhura Soda Store</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background: linear-gradient(to right, #4facfe, #00f2fe);
+            font-family: Arial;
             margin: 0;
-            padding: 0;
-            color: #333;
+            background: #f4f4f4;
         }
-
-        .container {
-            text-align: center;
-            margin-top: 100px;
-        }
-
-        h1 {
+        header {
+            background: #ff4d4d;
             color: white;
-            font-size: 40px;
+            padding: 20px;
+            text-align: center;
         }
-
-        p {
-            font-size: 20px;
-            color: #f0f0f0;
+        .container {
+            padding: 20px;
         }
-
         .card {
             background: white;
-            padding: 30px;
-            margin: 30px auto;
-            width: 50%;
+            padding: 15px;
+            margin: 15px;
             border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-        }
-
-        .btn {
             display: inline-block;
-            padding: 12px 25px;
-            margin-top: 20px;
-            font-size: 16px;
+            width: 250px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        .card h3 {
+            color: #ff4d4d;
+        }
+        .btn {
+            background: #ff4d4d;
             color: white;
-            background-color: #007BFF;
+            padding: 10px;
+            border: none;
             border-radius: 5px;
-            text-decoration: none;
+            cursor: pointer;
         }
-
-        .btn:hover {
-            background-color: #0056b3;
-        }
-
         footer {
-            margin-top: 50px;
-            color: black;
-            font-size: 14px;
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
         }
     </style>
 </head>
 <body>
 
+<header>
+    <h1>🥤 Sindhura Soda Store</h1>
+    <p>Refreshing Drinks Delivered Fresh!</p>
+</header>
+
 <div class="container">
-    <h1>🚀 DevOps CI/CD Demo New Version v1 </h1>
-    <p>Deployed using Jenkins + Maven + Tomcat</p>
 
     <div class="card">
-        <h2>Welcome!</h2>
-        <p>This is a simple Java web application deployed through a CI/CD pipeline.</p>
-
-        <p><strong>Pipeline Flow:</strong></p>
-        <p>Git → Jenkins → Maven Build → Tomcat Deploy</p>
-
-        <a href="#" class="btn">Learn More</a>
+        <h3>Coca Cola</h3>
+        <p>Classic refreshing cola drink.</p>
+        <button class="btn">Order Now</button>
     </div>
 
-    <footer>
-        <p>© 2026 DevOps Project Demo</p>
-    </footer>
+    <div class="card">
+        <h3>Pepsi</h3>
+        <p>Bold and energizing soda.</p>
+        <button class="btn">Order Now</button>
+    </div>
+
+    <div class="card">
+        <h3>Sprite</h3>
+        <p>Cool lemon-lime refreshment.</p>
+        <button class="btn">Order Now</button>
+    </div>
+
+    <div class="card">
+        <h3>Fanta</h3>
+        <p>Fruity orange soda blast.</p>
+        <button class="btn">Order Now</button>
+    </div>
+
 </div>
+
+<footer>
+    <p>© 2026 Sindhura Soda Store | DevOps Demo Project</p>
+</footer>
 
 </body>
 </html>
