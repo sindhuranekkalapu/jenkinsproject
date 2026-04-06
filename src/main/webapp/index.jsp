@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Rahul Soda Store</title>
+    <title>Sindhura Soda Store</title>
     <style>
         body {
             font-family: Arial;
@@ -49,7 +49,7 @@
 <body>
 
 <header>
-    <h1>🥤 Sindhura Soda Store</h1>
+    <h1>🥤 Nekkalapu Soda Store</h1>
     <p>Refreshing Drinks Delivered Fresh!</p>
 </header>
 
@@ -82,7 +82,7 @@
 </div>
 
 <footer>
-    <p>© 2026 Sindhura Soda Store | DevOps Demo Project</p>
+    <p>© 2026 Nekkalapu Soda Store | DevOps Demo Project</p>
 </footer>
 
 </body>
