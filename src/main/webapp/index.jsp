@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Sindhura Soda Store</title>
+    <title>Rahul Soda Store</title>
     <style>
         body {
             font-family: Arial;
