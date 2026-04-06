@@ -15,5 +15,6 @@ spec:
       containers:
       - name: simple-webapp
         image: projectacr-h9f7f2cyakbkdcft.azurecr.io/simple-webapp:latest
+        imagePullPolicy: Always 
         ports:
         - containerPort: 8080
